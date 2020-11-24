@@ -1,0 +1,28 @@
+# Change 'comments' to true for Disqus comments
+disqus:
+  comments: true
+  disqus_shortname: 'ZMackay'
+
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+google-ID: ''
+
+#Changes here effect the header menu only
+menu: 
+  - name: Posts
+    link: /ShootYourFriendsWebsite/
+  - name: Tags
+    link: /ShootYourFriendsWebsite/tags
+  - name: About
+    link: /ShootYourFriendsWebsite/about
+  - name: Follow us
+    submenu:
+      - name: GitHub
+        icon: github
+        link: http://github.com/zmalexander
+      - name: LinkedIn
+        icon: linkedin-square
+        link: https://linkedin.com/in/zach-mackay-b78b89170/
+      - name: Facebook
+        icon: facebook
+        link: https://facebook.com
+    
