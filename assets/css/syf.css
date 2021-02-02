@@ -1,0 +1,39 @@
+html, body {
+    background-color: #303030;
+}
+
+#banner {
+    background-color: rgba(0,0,0,0);
+}
+
+.post .content {
+    background-color: #303030;
+    color: #DDDDDD;
+}
+
+.post.syf1 h1, .post.syf1 h2, .post.syf1 h3, .post.syf1 a {
+    background-color: #303030;
+    color: #E71898;
+}
+
+article {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url("images/overlay.png"), url("../../images/syf-background.png");
+  
+    /* Set a specific height */
+    height: 75%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+

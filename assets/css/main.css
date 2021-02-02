@@ -3308,7 +3308,7 @@
 		background-color: #3498db;
 		color: rgba(255, 255, 255, 0.75);
 		text-align: center;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		/*background-image: url("images/overlay.png"), url("../../images/banner.jpg");*/
 		cursor: default;
 		padding: 10em 4em 9em 4em;
 	}
