@@ -11,9 +11,19 @@ html, body {
     color: #DDDDDD;
 }
 
-.post.syf1 h1, .post.syf1 h2, .post.syf1 h3, .post.syf1 a {
+.syf1, .post.syf1 h1, .post.syf1 h2, .post.syf1 h3, .post.syf1 a {
     background-color: #05001f;
     color: #E71898;
+}
+
+.syf1 a, .syf1 h1, .syf1 h2, .syf1 h3, .syf1 a {
+    background-color: #05001f;
+    color: #E71898;
+}
+
+.syf1 p {
+    color: #BBB;
+    
 }
 
 #logo-trailer {
@@ -39,9 +49,22 @@ html, body {
     align-items: center;
 }
 
-
 .element img {
     max-width: 95%;
+}
+
+.my-content {
+    display: grid;
+    padding: 5em;
+    text-align: justify;
+}
+
+.quote {
+    font-style: italic;
+    border-width: 1px 0px;
+    border-color: #bbb;
+    border-style: solid;
+    padding: 0.5em;
 }
 
 #logo {
