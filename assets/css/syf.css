@@ -54,8 +54,17 @@ html, body {
     align-items: center;
 }
 @media (max-width: 540px){
+
+    .my-wrapper, .row, .element {
+        display: block;
+    }
+
     .element {
         width: 100%;
+    }
+
+    .element image {
+        float: right;
     }
 }
 
